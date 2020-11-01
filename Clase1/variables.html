@@ -33,6 +33,8 @@
             <li>const: Es una variable que no se puede cambiar su contendido como una variable de la velocidad de la luz</li>
             <li>let: Es una variable que permite declarar limitando su alcance</li>
         </ul>
+        <h2>Convencion</h2>
+        <p>CamelCase</p>
         <h2>Declarar variables</h2>
         <p>
             Para declar una variable string se asigna que tipo de variable sera, luego se coloca el nombre de la variable y posteriormente se asigan su valor en el caso de string se debe colocar comillas simple ' ' o comillas dobles " ".  
@@ -43,7 +45,61 @@
                 El punto y coma ; es algo opcional ya que reconoce las lineas de codigo
             </strong>
         </p>
-
+        <h2>Funcion basicas</h2>
+        <p>Las funciones se reconocen por que al final llevan parentesis</p>
+        <ul>
+            <li>
+                <h3>Mayusculas o minusculas</h3>
+                <ul>
+                    <li>
+                        <p>var nombreMayusculas = <strong>nombre.toUpperCase()</strong></p>
+                    </li>
+                    <li>
+                        <p>var apellidoMinusculas = <strong>apelllido.toLoweCase()</strong></p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h3>Saber el primer caracter de un string</h3>
+                <ul>
+                    <li>
+                        <p>var primeraLetraNombre = nombre.charAt()</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h2>Atributos basicos</h2>
+        <h3>
+            Saber la cantidad total de letras o caracteres de un string
+        </h3>
+            <ul>
+                <li>
+                    <p>var cantidadLetraNombre = nombre.length</p>
+                </li>
+            </ul>
+            <h3>Para actualizar el dato</h3>
+            <p>Volver a declarar la variable</p>
+            <ul>
+                <li>
+                    <p>cantidadLetraNombre = nombre.length</p>
+                </li>
+            </ul>
+        <h2>Concatenacion</h2>
+        <p>Esto lo que hace es poder unir dos variables tipo string</p>
+        <ul>
+            <li>
+                <p>var nombreCompleto = nombre + ' ' + apellido</p>
+            </li>
+            <h4>Interpolacion de text</h4>
+            <p>
+                En esta sintaxis se puede colocar codigo js dentro de los parentesis lo que evita escribir una funcion aparte
+            </p>
+            <li>
+                <p>
+                    var nombreCompletoInterpolacion = `${nombre} ${apellido.toUpperCase()}`
+                </p>
+            </li>
+        </ul>
         <h2>Cosola del navegador</h2>
         <p>Para abrir la consola del navagador precionar <strong>F12</strong></p>
     </main>
